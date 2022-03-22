@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+#topimage{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+#mainimage{
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+#maintitle{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+#text1{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+#source{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #DCDCDC;
+}
+
+
+.lowerimages{
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#whatsapp-image{
+    margin-left: 80px;
+}
+
+#nba-text{
+    width: 100%;
+    display: inline-block;;
+    max-width: 250px;
+    font-size: 20px;
+}
+
+#whatsapp-text{
+    width: 100%;
+    margin-left: 80px;
+    display: inline-block;
+    max-width: 250px;
+    font-size: 20px;
+}
+
+
+#source-nba{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #DCDCDC;
+}
+
+#source-whatsapp{
+    display: inline-block;
+    margin-left: 175px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #DCDCDC;
+}
+
+#mandarim-bottom{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#bottom-text{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #989898;
+}
+
+a{
+    color: #989898;
+}
+
+@media screen and (max-width: 560px) {
+
+    #whatsapp-image{
+        margin-left: 10px;
+    }
+
+    #whatsapp-text{
+        margin-left: 10px;
+    }
+    
+    #source-whatsapp{
+        margin-left:100px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .lowerimages{
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-top: 25px;
+    }
+
+    #nba-image{
+        width: 150px;
+        height: 150px;
+    }
+
+    #whatsapp-image{
+        display: block;
+        margin-left: 0px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #nba-text{
+        font-size: 14px;
+        position: absolute;
+        left: 150px;
+        bottom: 250px;
+    }
+
+    #source-nba{
+        position: absolute;
+        left: 150px;
+        bottom: 210px;
+    }
+
+    #whatsapp-text{
+        font-size: 14px;
+        position: absolute;
+        left:140px;
+        bottom: 100px;
+    }
+
+    #source-whatsapp{
+        position: absolute;
+        left: 50px;
+        bottom: 65px;
+    }
+}
